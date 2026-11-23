@@ -1,6 +1,9 @@
 ﻿namespace Deadfish.Logic;
 
-public class Class1
+public class Deadfish
 {
-
+  public static int[] Parse(string input)
+  {
+    return [1];
+  }
 }

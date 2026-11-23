@@ -20,4 +20,8 @@
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Deadfish.Logic\Deadfish.Logic.csproj" />
+  </ItemGroup>
+
 </Project>
