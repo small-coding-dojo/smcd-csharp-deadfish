@@ -1,4 +1,6 @@
-﻿namespace Deadfish.Tests;
+﻿using System.Reflection;
+
+namespace Deadfish.Tests;
 
 public class Tests
 {
@@ -10,6 +12,8 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.Pass();
+        var actual = Deadfish.Parse("io");
+        var expected = new int[]{1};
+        Assert.Equals(actual, expected, "because incremented once");
     }
 }
